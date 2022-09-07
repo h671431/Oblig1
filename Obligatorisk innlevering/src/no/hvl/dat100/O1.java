@@ -16,7 +16,7 @@ public class O1 {
 	switch (tallTxt) {
 	case 0:
 	Inntekt= ("x>=0 && x<=164100");
-	sats= ("x/100*0.00");
+	sats=("x/100*0,00");
 	break;
 	
 	case 1:
@@ -41,11 +41,12 @@ public class O1 {
 	
 	default:
 	Inntekt = "Ugyldig tall";
-	
+
 	
 	}
 	
-		String utTxt = ("Trinnskatt:" +sats);
+		String utTxt = ("Trinnskatt:" + sats);
+		
 		
 		showMessageDialog(null, utTxt);
 
