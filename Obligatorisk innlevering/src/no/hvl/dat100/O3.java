@@ -1,15 +1,29 @@
 package no.hvl.dat100;
 
+import static javax.swing.JOptionPane.*;
+import static java.lang.Integer.parseInt;
+import static javax.swing.JOptionPane.showInputDialog;
+
 public class O3 {
 
 	public static void main(String[] args) {
 	
-		String n = ("n > 0");
-		String N = null;
+		long sum=1;
 		
-		N= ("1*2*3*...*(n-1)*n");
+		int tallTxt = parseInt(showInputDialog("Skriv inn et tall: ")); 
 		
 
+		for(int i=1; i<=tallTxt; i++) {
+			
+			sum = sum * i; 
+			
+		}
+			
+			
+		
+		
+		showMessageDialog(null, "svaret er: "+ sum);
+		
 	}
 
 }

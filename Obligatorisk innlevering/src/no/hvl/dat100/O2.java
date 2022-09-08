@@ -14,33 +14,32 @@ public class O2 {
 			String karakter = "Ugyldig poengsum"; 
 			
 		
-			
 			if (poengsum <= 39) {
-				System.out.println(karakter = "F");
+				showMessageDialog(null, karakter = "F");
 			}
 						
 			if (poengsum >= 40 && poengsum <= 49){
-				System.out.println(karakter = "E");
+				showMessageDialog(null, karakter = "E");
 			}
 				
 			if (poengsum >= 50 && poengsum <= 59){
-				System.out.println(karakter = "D");
+				showMessageDialog(null, karakter = "D");
 			}
 				
 			if (poengsum >= 60 && poengsum <= 79){
-				System.out.println(karakter = "C");
+				showMessageDialog(null, karakter = "C");
 			}
 				
 			if (poengsum >= 80 && poengsum <= 89){
-				System.out.println(karakter = "B");
+				showMessageDialog(null, karakter = "B");
 			}
 				
 			if (poengsum >= 90 && poengsum <= 100){
-				System.out.println(karakter = "A");
+				showMessageDialog(null, karakter = "A");
 			}
 				
 			if(poengsum < 0 | poengsum > 100){
-				System.out.println("Ugyldig poengsum");
+				showMessageDialog(null,"Ugyldig poengsum");
 			}
 			}
 							
